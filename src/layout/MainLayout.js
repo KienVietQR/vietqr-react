@@ -14,7 +14,15 @@ function MainLayout({ children }) {
 
   return (
     <div>
+<<<<<<< Updated upstream
       <Flex style={{ justifyContent: 'space-between' }}>
+=======
+      {/* <Flex
+        style={{
+          justifyContent: 'space-between',
+        }}
+      >
+>>>>>>> Stashed changes
         <h1>Layout</h1>
         <div>
           {auth.session}
@@ -24,7 +32,7 @@ function MainLayout({ children }) {
             </Button>
           )}
         </div>
-      </Flex>
+      </Flex> */}
 
       {children}
     </div>

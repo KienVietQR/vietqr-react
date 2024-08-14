@@ -3,6 +3,7 @@
 import { Button } from 'antd';
 import { useTranslations } from 'next-intl';
 import { useAuthContext } from '~/contexts/AuthContext';
+import { LoginHeader } from '~/components/header';
 
 function Login() {
   const t = useTranslations();
@@ -13,7 +14,8 @@ function Login() {
 
   return (
     <div>
-      <h1>Login page</h1>
+      {/* <h1>Login page</h1> */}
+      <LoginHeader />
       <div>{t('welcome')}</div>
       <Button onClick={submit}>Login</Button>
     </div>
